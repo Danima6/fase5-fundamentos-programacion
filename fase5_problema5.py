@@ -16,7 +16,7 @@ def procesar_y_clasificar_jornada(matriz_datos):
         total_horas = sum(fila[1:])
         
         # Lógica de negocio para clasificar la jornada laboral
-        if total_horas > UBRAL_HORAS:
+        if total_horas > UMBRAL_HORAS:
             clasificacion = "Sobretiempo"
         else:
             clasificacion = "Horario Estándar"
